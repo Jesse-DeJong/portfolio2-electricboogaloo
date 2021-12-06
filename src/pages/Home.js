@@ -1,6 +1,18 @@
+import React, { useState } from 'react';
+
 const Home = () => {
+    
+    const styles = {
+        div: {
+            height: document.documentElement.clientHeight - 82.5,
+            width: document.documentElement.clientWidth,
+        }
+    }
+
     return (
-        <p>there should be text on my screen</p>
+        <div style={styles.div}>
+
+        </div>
     );
 };
 
