@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <h1>Hello World</h1>
+        <p>there should be text on my screen</p>
     );
 };
 
